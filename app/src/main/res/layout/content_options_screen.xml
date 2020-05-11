@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    tools:context=".GameUI.OptionsScreen">
+
+    <RadioGroup
+        android:id="@+id/btn_gridsize"
+        android:layout_width="157dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/board3"
+        android:buttonTint="@color/your_color"
+        android:paddingLeft="35sp"
+        android:paddingTop="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="80dp" />/>
+
+
+    <TextView
+        android:id="@+id/select_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="casual"
+        android:text="Select the grid size:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selection_zombies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="356dp"
+        android:layout_marginLeft="356dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="casual"
+        android:text="How many zombies?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/btn_zombies"
+        android:layout_width="158dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="356dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/board2"
+        android:paddingLeft="35sp"
+        android:paddingTop="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="356dp" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="105dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="572dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sign2"
+        android:fontFamily="casual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="572dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
