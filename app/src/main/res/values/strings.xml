@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="_0">0</string>
+    <string name="textview">TextView</string>
+    <string name="zombies_hidden">zombies hidden</string>
+    <string name="zombies_killed">zombies killed</string>
+    <string name="shots_fired">shots fired</string>
+    <string name="project_instructions_and_resources_found">Project instructions and resources found:</string>
+    <string name="about_the_author_application_written_by_katelyn_kim_and_eric_wang">About the Author: Application written by Katelyn Kim and Eric Wang</string>
+    <string name="rules_hunt_all_the_zombies_in_the_graveyard_click_on_a_cell_to_reveal_if_a_zombie_is_there_if_no_zombie_is_present_a_number_appears_indicating_the_total_number_of_remaining_zombies_in_that_row_and_column_clicking_on_a_cell_without_a_zombie_hidden_results_counts_a_missed_shot_try_to_hunt_all_the_zombies_using_the_fewest_number_of_missed_shots">Rules: Hunt all the zombies in the graveyard. Click on a cell to reveal if a zombie is there. If no zombie is present, a number appears indicating the total number of remaining zombies in that row and column. Clicking on a cell without a zombie hidden results counts a missed shot. Try to hunt all the zombies using the fewest number of missed shots.</string>
+    <string name="note_the_in_game_zombie_images_and_sound_effects_came_from_n_https_www_font_generator_com_nhttps_pixabay_com_nhttps_www_shutterstock_com_n_https_www_zapsplat_com">Note: The in-game zombie images and sound effects came from:  https://www.font-generator.com,  https://pixabay.com, https://www.shutterstock.com   https://www.zapsplat.com/</string>
+</resources>
